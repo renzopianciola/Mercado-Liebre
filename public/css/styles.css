@@ -1,0 +1,185 @@
+/* Media query anterior */
+@media (max-width: 360px) {
+    .info-producto, #site-nav, #login-nav {
+        display: none;
+    }
+    
+    #burger-nav {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Media query tablet */
+@media (min-width: 361px) {
+    .product-container {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .info-producto, #site-nav, #login-nav {
+        display: block;
+    }
+
+    #burger-nav {
+        display: none;
+    }
+
+}
+
+/* Media query desktop */
+@media (min-width: 769px) {
+    .product-container {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .info-producto, .site-nav, .login-nav {
+        display: block;
+    }
+
+    #burger-nav {
+        display: none;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #EAC926;
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+}
+
+main {
+    padding: 30px;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.products {
+    width: 90%;
+}
+
+.info-producto {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+.img-articulo {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+#burger-menu-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #0044AA;
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#burger-logo {
+    color:#fff;
+    font-size: 25px;
+}
+
+.textBody {
+    font-size: 16px;
+    text-align:center;
+}
+
+.titulares {
+    font-size: 24px;
+    text-align: center;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+}
+
+.descripciones {
+    font-size: 16px;
+}
+
+.search {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid white 2px;
+    padding: 1px;
+    background-color: white;
+    display:inline;
+    margin-bottom: 150px;
+    border-radius: 2px;
+    border-color: black;
+    border-width: 1px;
+}
+
+.buscador {
+    margin-bottom: 5px;
+}
+
+.derecha {
+    align-content: flex-end;
+    
+}
+
+.tu-clase-renzo {
+    color: blue;
+}
+
+.icono-footer {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.product-container {
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+
+.bloque-footer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#logo-camion{
+    color: #2EB143;
+}
+
+footer {
+    background-color: #EAC926;
+    padding: 30px;
+    width: 100%;
+}
